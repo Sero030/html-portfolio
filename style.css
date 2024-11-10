@@ -28,7 +28,7 @@ p{
     background-color: #B7B7B7;
 }
 .pfp{
-    height: 15rem;
+    max-height: 15rem;
 }
 .headings{
     color: #705C53;
