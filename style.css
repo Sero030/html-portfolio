@@ -1,42 +1,57 @@
 body {
-    color: #40514e;
-    margin: 0;
-    text-align: center;
-    font-family: "Merriweather", serif;
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
 }
-h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2.5rem;
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.5rem;
 }
-p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 400;
-    font-size: 1.25rem;
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
 }
 .top-container {
-    background-color: #EDDFE0;
-    position: relative;
-    padding-top: 100px;
+  background-color: #eddfe0;
+  position: relative;
+  padding-top: 100px;
 }
-.middle-container{
-    background-color: #F5F5F7;
+.middle-container {
+  background-color: #f5f5f7;
 }
-.projects{
-    background-color: #F5F5F7;
+.projects {
+  background-color: #f5f5f7;
 }
-.footer{
-    background-color: #B7B7B7;
+.footer {
+  background-color: #b7b7b7;
 }
-.pfp{
-    max-height: 15rem;
+.pfp {
+  max-height: 15rem;
 }
-.headings{
-    color: #705C53;
+.headings {
+  color: #705c53;
 }
-a{
-    font-size: 1.25rem;
+a {
+  font-size: 1.25rem;
 }
-li{
-    color: #F5F5F7;
-    font-size: 1.25rem;
+li {
+  color: #f5f5f7;
+  font-size: 1.25rem;
+}
+.web-link:hover {
+  background-color: #705c53 !important;
+}
+.footer a {
+  transition: 0.5s;
+}
+.footer a:hover {
+  transform: scale(1.05);
+}
+.pr-image {
+  transition: 0.5s;
+}
+.pr-image:hover {
+  transform: scale(1.02);
 }
